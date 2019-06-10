@@ -1,8 +1,6 @@
 #include<iostream>
 
-char pared()
+int jugador()
 {
 
-
 }
-

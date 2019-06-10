@@ -1,6 +1,6 @@
 #ifndef EJEM_H
 #define EJEM_H // EJEM_H
 
-void pared();
+int jugador();
 
 #endif // EJEM_H

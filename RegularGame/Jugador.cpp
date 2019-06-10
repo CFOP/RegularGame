@@ -1,6 +1,6 @@
 #include<iostream>
 
-int pared()
+int jugador()
 {
 
 }

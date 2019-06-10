@@ -3,8 +3,8 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
+
     funcion();
     return 0;
 }

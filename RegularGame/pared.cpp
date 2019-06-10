@@ -1,6 +1,8 @@
 #include<iostream>
 
-int pared()
+char pared()
 {
 
+
 }
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1560203931 source:c:\users\golem\documents\github\regulargame\regulargame\ejemplo.cpp
+	<iostream>
+	"ejemplo.h"
+
+1560203846 source:c:\users\golem\documents\github\regulargame\regulargame\main.cpp
+	<iostream>
+	"ejemplo.h"
+
+1560204048 c:\users\golem\documents\github\regulargame\regulargame\ejemplo.h
+

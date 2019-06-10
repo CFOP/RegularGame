@@ -3,8 +3,7 @@
 
 using namespace std;
 
-int main()
-{
-    funcion();
-    return 0;
+int funcion(){
+    cout<<"hola mundo";
+    return 3;
 }

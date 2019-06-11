@@ -1,10 +1,19 @@
 #include <iostream>
-#include "ejemplo.h"
+#include<windows.h>
+#include "Jugador.h"
+#include "Mapas.h"
 
 using namespace std;
 
+
+
 int main()
 {
-    funcion();
+    showMap();
+    while(true)
+    {
+        jugador();
+        showMap();
+    }
     return 0;
 }

@@ -9,3 +9,22 @@
 
 1560204048 c:\users\golem\documents\github\regulargame\regulargame\ejemplo.h
 
+1560270780 source:d:\e\programacion\atto coders\regulargame\regulargame\mapas.cpp
+	<iostream>
+	<windows.h>
+
+1560271111 source:d:\e\programacion\atto coders\regulargame\regulargame\jugador.cpp
+	<iostream>
+	<windows.h>
+	"Mapas.h"
+
+1560271086 d:\e\programacion\atto coders\regulargame\regulargame\mapas.h
+
+1560271124 source:d:\e\programacion\atto coders\regulargame\regulargame\main.cpp
+	<iostream>
+	<windows.h>
+	"Jugador.h"
+	"Mapas.h"
+
+1560209965 d:\e\programacion\atto coders\regulargame\regulargame\jugador.h
+

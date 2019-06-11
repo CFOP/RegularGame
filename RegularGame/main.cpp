@@ -6,7 +6,6 @@
 using namespace std;
 
 
-
 int main()
 {
     showMap();
@@ -15,5 +14,4 @@ int main()
         jugador();
         showMap();
     }
-    return 0;
 }

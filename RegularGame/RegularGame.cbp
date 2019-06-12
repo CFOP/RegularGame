@@ -36,6 +36,8 @@
 		<Unit filename="Jugador.h" />
 		<Unit filename="Mapas.cpp" />
 		<Unit filename="Mapas.h" />
+		<Unit filename="fake.cpp" />
+		<Unit filename="fake.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="main.h" />
 		<Extensions>

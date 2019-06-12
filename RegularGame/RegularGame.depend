@@ -42,7 +42,7 @@
 
 1560209396 cd07819ce3816fcf365f6344645feafd5a805
 
-1560379790 source:c:\users\admin\documents\github\regulargame\regulargame\jugador.cpp
+1560382262 source:c:\users\admin\documents\github\regulargame\regulargame\jugador.cpp
 	<iostream>
 	<windows.h>
 	"Mapas.h"
@@ -57,7 +57,7 @@
 
 1560372296 c:\users\admin\documents\github\regulargame\regulargame\jugador.h
 
-1560380447 source:c:\users\admin\documents\github\regulargame\regulargame\mapas.cpp
+1560383899 source:c:\users\admin\documents\github\regulargame\regulargame\mapas.cpp
 	<iostream>
 	<windows.h>
 	"Jugador.h"

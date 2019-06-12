@@ -11,24 +11,29 @@
 
 1560204048 D
 
-1560280396 source:d:\e\programacion\atto coders\regulargame\regulargame\mapas.cpp
+1560386618 source:d:\e\programacion\atto coders\regulargame\regulargame\mapas.cpp
 	<iostream>
 	<windows.h>
+	"Jugador.h"
+	"main.h"
+	"Mapas.h"
 
-1560271111 source:d:\e\programacion\atto coders\regulargame\regulargame\jugador.cpp
+1560386393 source:d:\e\programacion\atto coders\regulargame\regulargame\jugador.cpp
 	<iostream>
 	<windows.h>
 	"Mapas.h"
+	"main.h"
 
-1560271086 d:\e\programacion\atto coders\regulargame\regulargame\mapas.h
+1560386330 d:\e\programacion\atto coders\regulargame\regulargame\mapas.h
 
-1560281299 source:d:\e\programacion\atto coders\regulargame\regulargame\main.cpp
+1560386393 source:d:\e\programacion\atto coders\regulargame\regulargame\main.cpp
 	<iostream>
 	<windows.h>
 	"Jugador.h"
 	"Mapas.h"
+	"main.h"
 
-1560209965 d:\e\programacion\atto coders\regulargame\regulargame\jugador.h
+1560372298 d:\e\programacion\atto coders\regulargame\regulargame\jugador.h
 
 1560207816 source:c:\users\admin\documents\github\regulargame\regulargame\ejemplo.cpp
 	<iostream>
@@ -42,7 +47,7 @@
 
 1560209396 cd07819ce3816fcf365f6344645feafd5a805
 
-1560379790 source:c:\users\admin\documents\github\regulargame\regulargame\jugador.cpp
+1560382262 source:c:\users\admin\documents\github\regulargame\regulargame\jugador.cpp
 	<iostream>
 	<windows.h>
 	"Mapas.h"
@@ -57,7 +62,7 @@
 
 1560372296 c:\users\admin\documents\github\regulargame\regulargame\jugador.h
 
-1560380447 source:c:\users\admin\documents\github\regulargame\regulargame\mapas.cpp
+1560383899 source:c:\users\admin\documents\github\regulargame\regulargame\mapas.cpp
 	<iostream>
 	<windows.h>
 	"Jugador.h"
@@ -75,6 +80,7 @@
 1560304875 c:\users\admin\documents\github\regulargame\regulargame\puertas.h
 
 1560371127 c:\users\admin\documents\github\regulargame\regulargame\main.h
+
 
 1560383969 source:c:\users\admin\desktop\regulargame\regulargame\jugador.cpp
 	<iostream>
@@ -98,4 +104,5 @@
 	"main.h"
 
 1560383970 c:\users\admin\desktop\regulargame\regulargame\main.h
+
 

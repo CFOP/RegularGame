@@ -2,6 +2,7 @@
 #define EJEM_M // EJEM_A
 
 int gameOver();
+using namespace std;
 
 #endif // EJEM_A
 

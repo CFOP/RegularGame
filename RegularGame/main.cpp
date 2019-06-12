@@ -2,8 +2,7 @@
 #include<windows.h>
 #include "Jugador.h"
 #include "Mapas.h"
-//#include "main.h"
-using namespace std;
+#include "main.h"
 
 
 int gameOver(){
@@ -15,6 +14,7 @@ int gameOver(){
 
 int main()
 {
+    checarPos();
     showMap();
     while(true)
     {

@@ -1,9 +1,8 @@
 #include<iostream>
 #include<windows.h>
 #include "Mapas.h"
-//#include "main.h"
+#include "main.h"
 
-using namespace std;
 
 bool gokuAh = 0;
 

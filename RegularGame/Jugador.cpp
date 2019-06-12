@@ -8,6 +8,8 @@ using namespace std;
 bool gokuAh = 0;
 
 int superSaiyan(){
+    gokuAh = 1;
+    if (muerte)
     return gokuAh;
 }
 

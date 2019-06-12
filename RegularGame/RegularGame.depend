@@ -47,7 +47,7 @@
 	<windows.h>
 	"Mapas.h"
 
-1560371220 c:\users\admin\documents\github\regulargame\regulargame\mapas.h
+1560382262 c:\users\admin\documents\github\regulargame\regulargame\mapas.h
 
 1560379790 source:c:\users\admin\documents\github\regulargame\regulargame\main.cpp
 	<iostream>
@@ -57,7 +57,7 @@
 
 1560372296 c:\users\admin\documents\github\regulargame\regulargame\jugador.h
 
-1560374653 source:c:\users\admin\documents\github\regulargame\regulargame\mapas.cpp
+1560380447 source:c:\users\admin\documents\github\regulargame\regulargame\mapas.cpp
 	<iostream>
 	<windows.h>
 	"Jugador.h"

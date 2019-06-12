@@ -39,3 +39,10 @@ void jugR();
 int muerte();
 
 #endif // EJEM_E
+
+#ifndef EJEM_G
+#define EJEM_G // EJEM_E
+
+int isOnS();
+
+#endif // EJEM_E

@@ -83,6 +83,7 @@ int muerte(){
 }
 
 
+
 void jugD()
 {
     if(m[mundoActual][JugY+1][JugX]!='#')

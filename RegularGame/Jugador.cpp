@@ -5,6 +5,11 @@
 
 using namespace std;
 
+bool gokuAh = 0;
+
+int superSaiyan(){
+    return gokuAh;
+}
 
 int isKeyDown(char a) {
     return GetKeyState(a)<0;
@@ -34,6 +39,6 @@ int jugador()
             jugL();
             while(isKeyDown('A'));
         }
-
+        showMap();
     }
 }

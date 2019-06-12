@@ -19,6 +19,5 @@ int main()
     while(true)
     {
         jugador();
-        showMap();
     }
 }

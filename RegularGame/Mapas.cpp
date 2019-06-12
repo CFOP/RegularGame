@@ -4,7 +4,7 @@
 #include "main.h"
 using namespace std;
 
-bool dead=0;
+bool dead=0; //smn = 0;
 
 char m[10][15][15] =
     {
@@ -51,9 +51,14 @@ int mundoActual=0;
 
 int JugX=1, JugY=1;
 
-
-
-
+/*int posicionActual(char c){
+    char c1 = c;
+    if(m[mundoActual][JugY][JugX]==c1){
+        smn =1;
+    }
+    return smn;
+}
+*/
 void showMap()
 {
     system("cls");
@@ -71,7 +76,8 @@ int muerte(){
     }
 
     else {
-        dead = 1;
+        if(superSaiyan() == 1) dead = 0;
+        else dead = 1;
     }
     return dead;
 }
@@ -83,14 +89,14 @@ void jugD()
     {
         m[mundoActual][JugY][JugX] = '*';
         JugY++;
-        if (muerte() == 1) gameOver();
-        /*if(m[mundoActual][JugY][JugX]=='2')
+        if(m[mundoActual][JugY][JugX]=='2')
         {
             //turno();
             mundoActual = 1;
             showMap();
             JugX = JugY = 1;
-        }*/
+        }
+        if (muerte() == 1) gameOver();
         m[mundoActual][JugY][JugX] = 'o';
     }
 

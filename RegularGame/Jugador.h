@@ -7,6 +7,6 @@ int jugador();
  #ifndef EJEM_I
  #define EJEM_I
 
- void superSaiyan();
+ int superSaiyan();
 
  #endif // EJEM_I

@@ -42,3 +42,37 @@
 
 1560209396 cd07819ce3816fcf365f6344645feafd5a805
 
+1560312315 source:c:\users\admin\documents\github\regulargame\regulargame\jugador.cpp
+	<iostream>
+	<windows.h>
+	"Mapas.h"
+
+1560371220 c:\users\admin\documents\github\regulargame\regulargame\mapas.h
+
+1560371658 source:c:\users\admin\documents\github\regulargame\regulargame\main.cpp
+	<iostream>
+	<windows.h>
+	"Jugador.h"
+	"Mapas.h"
+
+1560309040 c:\users\admin\documents\github\regulargame\regulargame\jugador.h
+
+1560371626 source:c:\users\admin\documents\github\regulargame\regulargame\mapas.cpp
+	<iostream>
+	<windows.h>
+	"Jugador.h"
+	"main.h"
+
+1560305048 source:c:\users\admin\documents\github\regulargame\regulargame\puertas.cpp
+	<iostream>
+	"Mapas.h"
+	"Puertas.h"
+
+1560304384 c:\users\admin\documents\github\regulargame\regulargame\mapas.cpp
+	<iostream>
+	<windows.h>
+
+1560304875 c:\users\admin\documents\github\regulargame\regulargame\puertas.h
+
+1560371127 c:\users\admin\documents\github\regulargame\regulargame\main.h
+

@@ -1,8 +1,10 @@
 #include<iostream>
 #include<windows.h>
-#include"Mapas.h"
+#include "Mapas.h"
+//#include "main.h"
 
 using namespace std;
+
 
 int isKeyDown(char a) {
     return GetKeyState(a)<0;

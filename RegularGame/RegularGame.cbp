@@ -37,6 +37,7 @@
 		<Unit filename="Mapas.cpp" />
 		<Unit filename="Mapas.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

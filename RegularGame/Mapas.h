@@ -32,3 +32,10 @@ void jugL();
 void jugR();
 
 #endif // EJEM_E
+
+#ifndef EJEM_F
+#define EJEM_F // EJEM_E
+
+int muerte();
+
+#endif // EJEM_E

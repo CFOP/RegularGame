@@ -4,3 +4,9 @@
 int jugador();
 
 #endif // EJEM_H
+ #ifndef EJEM_I
+ #define EJEM_I
+
+ void superSaiyan();
+
+ #endif // EJEM_I

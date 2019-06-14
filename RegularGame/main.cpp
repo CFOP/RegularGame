@@ -20,4 +20,5 @@ int main()
     {
         jugador();
     }
+    turno();
 }

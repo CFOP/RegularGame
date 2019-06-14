@@ -2,11 +2,10 @@
 #define EJEM_H // EJEM_H
 
 int jugador();
+int superSaiyan();
 
 #endif // EJEM_H
- #ifndef EJEM_I
- #define EJEM_I
 
- int superSaiyan();
 
- #endif // EJEM_I
+
+

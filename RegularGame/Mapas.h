@@ -16,6 +16,8 @@ int muerte();
 int isOnS();
 
 void checarPos();
+
+int enemigo();
 //funciones
 
 #endif // EJEM_E

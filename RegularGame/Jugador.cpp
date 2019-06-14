@@ -7,8 +7,10 @@
 bool gokuAh = 0;
 
 int superSaiyan(){
-    gokuAh = 1;
-    if (muerte)
+    if(isOnS()==1) gokuAh = 1;
+    else if (enemigo()==1){
+        gokuAh = 0;
+    }
     return gokuAh;
 }
 

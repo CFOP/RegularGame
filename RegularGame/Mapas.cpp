@@ -4,7 +4,8 @@
 #include "main.h"
 #include "Mapas.h"
 
-bool dead=0; //smn = 0;
+bool dead=0, smn = 0;
+int t = 5, ira = t+2;
 
 char m[11][15][15] =
     {
@@ -274,25 +275,45 @@ void showMap()
 }
 
 int muerte(){
-    if(m[mundoActual][JugY][JugX]=='.'){
+    if(m[mundoActual][JugY][JugX]=='.'||m[mundoActual][JugY][JugX]=='S'||m[mundoActual][JugY][JugX]=='X'){
         dead=0;
     }
 
     else {
-        if(superSaiyan() == 1) dead = 0;
-        else dead = 1;
+        dead=1;
     }
     return dead;
 }
 
+int isOnS(){
+    if(m[mundoActual][JugY][JugX]!='S'){
+        if(smn==1&&ira>0){
+            smn=1;
+        }
+        else {
+            smn=0;
+            ira=t+2;
+        }
+    }
+    else smn=1;
+    return smn;
+}
 
+int enemigo(){
+    if(m[mundoActual][JugY][JugX]!='.'||m[mundoActual][JugY][JugX]!='S'||m[mundoActual][JugY][JugX]!='X'){
+        return 1;
+    }
+    else return 0;
+}
 
 void jugD()
 {
     if(m[mundoActual][JugY+1][JugX]!='#')
     {
+        ira--;
         m[mundoActual][JugY][JugX] = '.';
         JugY++;
+        isOnS();
         if(m[mundoActual][JugY][JugX]=='P')
         {
             //turno();
@@ -300,7 +321,10 @@ void jugD()
             showMap();
             checarPos();
         }
-        if (muerte() == 1) gameOver();
+        if (muerte() == 1) {
+            if(superSaiyan() == 1) dead = 0;
+            else gameOver();
+        }
         m[mundoActual][JugY][JugX] = 'X';
     }
 
@@ -309,8 +333,10 @@ void jugU()
 {
     if(m[mundoActual][JugY-1][JugX]!='#')
     {
+        ira--;
         m[mundoActual][JugY][JugX] = '.';
         JugY--;
+        isOnS();
         if(m[mundoActual][JugY][JugX]=='P')
         {
             //turno();
@@ -318,7 +344,10 @@ void jugU()
             showMap();
             checarPos();
         }
-        if (muerte() == 1) gameOver();
+        if (muerte() == 1) {
+            if(superSaiyan() == 1) dead = 0;
+            else gameOver();
+        }
         /*if(m[mundoActual][y][x]=='2')
         {
             turno();
@@ -333,8 +362,10 @@ void jugR()
 {
     if(m[mundoActual][JugY][JugX+1]!='#')
     {
+        ira--;
         m[mundoActual][JugY][JugX] = '.';
         JugX++;
+        isOnS();
         if(m[mundoActual][JugY][JugX]=='P')
         {
             //turno();
@@ -342,7 +373,10 @@ void jugR()
             showMap();
             checarPos();
         }
-        if (muerte() == 1) gameOver();
+        if (muerte() == 1) {
+            if(superSaiyan() == 1) dead = 0;
+            else gameOver();
+        }
         /*if(m[mundoActual][y][x]=='2')
         {
             turno();
@@ -357,8 +391,10 @@ void jugL()
 {
     if(m[mundoActual][JugY][JugX-1]!='#')
     {
+        ira--;
         m[mundoActual][JugY][JugX] = '.';
         JugX--;
+        isOnS();
         if(m[mundoActual][JugY][JugX]=='P')
         {
             //turno();
@@ -366,7 +402,10 @@ void jugL()
             showMap();
             checarPos();
         }
-        if (muerte() == 1) gameOver();
+        if (muerte() == 1) {
+            if(superSaiyan() == 1) dead = 0;
+            else gameOver();
+        }
         /*if(m[mundoActual][y][x]=='2')
         {
             turno();

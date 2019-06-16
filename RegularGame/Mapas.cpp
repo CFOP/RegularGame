@@ -5,7 +5,7 @@
 #include "Mapas.h"
 
 bool dead=0, smn = 0;
-int t = 5, ira = t+2;
+int t = 5, ira = t+2,d;
 long long uno=0;
 
 char m[11][15][15] =
@@ -92,7 +92,7 @@ char m[11][15][15] =
             {'#', '.', '.', 'M', '#', '.', '.', '.', '.', '.', '.', '.', '.', '.', '#'},
             {'5', '.', '.', '.','.', '.', '.', 'O', '.', '.', '>', '.', '.', 'X', '3'},
             {'#', '.', '.', 'M', '#', '.', '.', '.', '.', '.', '.', '.', '.', '.', '#'},
-            {'#', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'N', '#'},
+            {'#', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', 'S', '.', 'H', '#'},
             {'#', '^', '.', '.', '.','.', '.', '.', '.', '.', '.', '.', '.', '#', '#'},
             {'#', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '#'},
             {'#', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '.', '#'},
@@ -251,7 +251,7 @@ void checarPos()
     }
 
 }
-
+/// Monstruos ///
 void turno()
 {
     for(int i=0; i<15; i++){
@@ -284,7 +284,8 @@ void turno()
                     if(m[mundoActual][i+1][j]=='.')
                     {
                         m[mundoActual][i][j]='.';
-                        m[mundoActual][i+1][j]='N';
+                        i++;
+                        m[mundoActual][i][j]='N';
                     }
                     else
                     {
@@ -304,15 +305,17 @@ void turno()
                 break;
                 case 'v':
                     if(uno%2==0)
-                        if(m[mundoActual][i+1][j]=='.')
-                            m[mundoActual][i+1][j]='i';
+                        if(m[mundoActual][i+1][j]=='.'){
+                            i++;
+                            m[mundoActual][i][j]='i';
+                        }
                 break;
                 case '>':
                     if(uno%2==0)
                        if(m[mundoActual][i][j+1]=='.')
                        {
                             j++;
-                            m[mundoActual][i][j+1]='o';
+                            m[mundoActual][i][j]='o';
                        }
 
 
@@ -331,7 +334,8 @@ void turno()
                     if(m[mundoActual][i+1][j]!='#')
                     {
                         m[mundoActual][i][j]='.';
-                        m[mundoActual][i+1][j]='i';
+                        i++;
+                        m[mundoActual][i][j]='i';
                     }
                     else
                         m[mundoActual][i][j]='.';
@@ -341,7 +345,7 @@ void turno()
                     {
                         m[mundoActual][i][j]='.';
                         j++;
-                        m[mundoActual][i][j+1]='o';
+                        m[mundoActual][i][j]='o';
                     }
                     else
                         m[mundoActual][i][j]='.';
@@ -364,6 +368,83 @@ void turno()
                     else
                         m[mundoActual][i][j]='.';
                 break;
+                case 'O':
+                    if(j-JugX>i-JugY){
+                        if(m[mundoActual][i][j+1]!='#'||m[mundoActual][i+1][j]!='#'||m[mundoActual][i][j-1]!='#'||m[mundoActual][i-1][j]!='#'){
+                            if(i-JugY<0){
+                            m[mundoActual][i][j]='.';
+                            j--;
+                            m[mundoActual][i][j]='O';
+                            }
+                            else if(i-JugY==0){          //i=y j=x
+                                if(j-JugX<0){
+                                    m[mundoActual][i][j]='.';
+                                    i--;
+                                    m[mundoActual][i][j]='O';
+                                }
+                                else{
+                                    m[mundoActual][i][j]='.';
+                                    i++;
+                                    m[mundoActual][i][j]='O';
+                                }
+                            }
+                            else{
+                                m[mundoActual][i][j]='.';
+                                j++;
+                                m[mundoActual][i][j]='O';
+                            }
+                        }
+                        else{
+                            m[mundoActual][i][j]='.';
+                            i++;
+                            m[mundoActual][i][j]='O';
+                        }
+                    }
+                    else if(j-JugX==i-JugY){
+                        if(m[mundoActual][i][j]!='#'){
+                            m[mundoActual][i][j]='.';
+                            j++;
+                            m[mundoActual][i][j]='O';
+                        }
+                        else{
+                            m[mundoActual][i][j]='.';
+                            j--;
+                            m[mundoActual][i][j]='O';
+                        }
+                    }
+                    else{
+                        if(m[mundoActual][i][j+1]!='#'||m[mundoActual][i+1][j]!='#'||m[mundoActual][i][j-1]!='#'||m[mundoActual][i-1][j]!='#'){
+                            if(j-JugX<0){
+                            m[mundoActual][i][j]='.';
+                            i--;
+                            m[mundoActual][i][j]='O';
+                            }
+                            else if(j-JugX==0){          //i=y j=x
+                                if(i-JugY<0){
+                                    m[mundoActual][i][j]='.';
+                                    j--;
+                                    m[mundoActual][i][j]='O';
+                                }
+                                else{
+                                    m[mundoActual][i][j]='.';
+                                    j++;
+                                    m[mundoActual][i][j]='O';
+                                }
+                            }
+                            else{
+                                m[mundoActual][i][j]='.';
+                                i++;
+                                m[mundoActual][i][j]='O';
+                            }
+                        }
+                        else{
+                            m[mundoActual][i][j]='.';
+                            j++;
+                            m[mundoActual][i][j]='O';
+                        }
+                    }
+                break;
+
                 default:
                 break;
 
@@ -385,7 +466,7 @@ void showMap()
 }
 
 int muerte(){
-    if(m[mundoActual][JugY][JugX]=='.'||m[mundoActual][JugY][JugX]=='S'||m[mundoActual][JugY][JugX]=='X'){
+    if(m[mundoActual][JugY][JugX]=='.'||m[mundoActual][JugY][JugX]=='S'||m[mundoActual][JugY][JugX]=='X'||m[mundoActual][JugY][JugX]=='F'||m[mundoActual][JugY][JugX]=='K'){
         dead=0;
     }
 

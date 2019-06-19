@@ -38,6 +38,8 @@
 		<Unit filename="Mapas.h" />
 		<Unit filename="fake.cpp" />
 		<Unit filename="fake.h" />
+		<Unit filename="m.cpp" />
+		<Unit filename="m.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="main.h" />
 		<Extensions>

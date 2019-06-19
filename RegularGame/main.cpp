@@ -1,9 +1,10 @@
 #include <iostream>
 #include<windows.h>
+#include <cstdlib>
 #include "Jugador.h"
 #include "Mapas.h"
 #include "main.h"
-
+#include "m.h"
 
 int gameOver(){
     system("cls");
@@ -11,13 +12,19 @@ int gameOver(){
     system ("pause");
     exit(-1);
 }
+void jugar(){
 
-int main()
-{
-    checarPos();
+checarPos();
     showMap();
     while(true)
     {
         jugador();
     }
 }
+
+int main()
+{
+    menu();
+}
+
+

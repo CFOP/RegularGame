@@ -65,7 +65,7 @@ void menu(){
 }
 void pausa()
 {
-    cout << "Pulsa una tecla para regresar...";
+    cout << "Pulsa una tecla para continuar...";
     getwchar();
     getwchar();
 }

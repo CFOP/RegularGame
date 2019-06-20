@@ -6,6 +6,91 @@
 #include "main.h"
 #include "m.h"
 
+void intro()
+{
+    system("cls");
+        cin.clear();
+
+
+
+
+
+        cout << "#####  #### #####   #   # #        #    #####     #####      #    #     # #####" << endl;
+        cout << "#    # #    #    #  #   # #       # #   #    #   #    #     # #   ##   ## #    " << endl;
+        cout << "#    # #    #       #   # #      #   #  #    #   #         #   #  ### ### #    " << endl;
+        cout << "###### ##   #   ##  #   # #     #     # ######   #   ##   #     # # ### # ###  " << endl;
+        cout << "# #    #    #    #  #   # #     ####### #   #    #    #   ####### #     # #    " << endl;
+        cout << "#   #  #    #    #  #   # #     #     # #    #   #    #   #     # #     # #    " << endl;
+        cout << "#    # ####  ####   #####  #### #     # #     #   #####   #     # #     # #####" << endl<<endl<<endl<<endl;
+
+
+        cout << "                       ";
+        cout << "              _              " << endl;
+        cout << "                       ";
+        cout << "             /_              " << endl;
+        cout << "                       ";
+        cout << "_            )_(            _" << endl;
+        cout << "                       ";
+        cout << "|`-.___,.-~'`|=|`'~-.,___,-'|" << endl;
+        cout << "                       ";
+        cout << "|  __________|=|__________  |" << endl;
+        cout << "                       ";
+        cout << "| |          |=|          | |" << endl;
+        cout << "                       ";
+        cout << "| |          |=|          | |" << endl;
+        cout << "                       ";
+        cout << "| |          |=|          | |" << endl;
+        cout << "                       ";
+        cout << "| |         _|_|_         | |" << endl;
+        cout << "                       ";
+        cout << "| |        |_____|        | |" << endl;
+        cout << "                       ";
+        cout << "| |         | | |         | |" << endl;
+        cout << "                       ";
+        cout << "| |         | | |         | |" << endl;
+        cout << "                       ";
+        cout << "| |         | | |         | |" << endl;
+        cout << "                       ";
+        cout << "| |         | | |         | |" << endl;
+        cout << "                       ";
+        cout << "| |         | | |         | |" << endl;
+        cout << "                       ";
+        cout << "| |         | | |         | |" << endl;
+        cout << "                       ";
+        cout << "| |         | | |         | |" << endl;
+        cout << "                       ";
+        cout << "| |         | | |         | |" << endl;
+        cout << "                       ";
+        cout << "| |         | | |         | |" << endl;
+        cout << "                       ";
+        cout << "| |         | | |         / /" << endl;
+        cout << "                       ";
+        cout << " | |        | | |        / / " << endl;
+        cout << "                       ";
+        cout << "  | |       | | |       / /  " << endl;
+        cout << "                       ";
+        cout << "   `.`.     | | |     ,','   " << endl;
+        cout << "                       ";
+        cout << "     `.`.   | | |   ,','     " << endl;
+        cout << "                       ";
+        cout << "       `.`-.| | |,-','       " << endl;
+        cout << "                       ";
+        cout << "         `-.| | |,-'         " << endl;
+        cout << "                       ";
+        cout << "            | | |            " << endl;
+        cout << "                       ";
+        cout << "            | | |            " << endl;
+        cout << "                       ";
+        cout << "            | | |            " << endl;
+        cout << "                       ";
+        cout << "            | | |            " << endl;
+        cout << "                       ";
+        cout << "              | /            " << endl;
+        cout << "                       ";
+        cout << "              V              " << endl;
+
+
+}
 
 void menu(){
 
@@ -13,12 +98,42 @@ void menu(){
 
         system("cls");
         cin.clear();
-        cout << "Regular Game" << endl;
+
+
+        cout << "#####  #### #####   #   # #        #    #####     #####      #    #     # #####" << endl;
+        cout << "#    # #    #    #  #   # #       # #   #    #   #    #     # #   ##   ## #    " << endl;
+        cout << "#    # #    #       #   # #      #   #  #    #   #         #   #  ### ### #    " << endl;
+        cout << "###### ##   #   ##  #   # #     #     # ######   #   ##   #     # # ### # ###  " << endl;
+        cout << "# #    #    #    #  #   # #     ####### #   #    #    #   ####### #     # #    " << endl;
+        cout << "#   #  #    #    #  #   # #     #     # #    #   #    #   #     # #     # #    " << endl;
+        cout << "#    # ####  ####   #####  #### #     # #     #   #####   #     # #     # #####" << endl<<endl<<endl<<endl;
+
+
+        cout << "   ##                     ## ##     ##  ######      ###    ########  " << endl;
+        cout << " ####                     ## ##     ## ##    ##    ## ##   ##     ## " << endl;
+        cout << "   ##                     ## ##     ## ##         ##   ##  ##     ## " << endl;
+        cout << "   ##       #######       ## ##     ## ##   #### ##     ## ######## " << endl;
+        cout << "   ##               ##    ## ##     ## ##    ##  ######### ##   ##  " << endl;
+        cout << "   ##   ###         ##    ## ##     ## ##    ##  ##     ## ##    ## " << endl;
+        cout << " ###### ###          ######   #######   ######   ##     ## ##     ##" << endl<<endl<<endl<<endl;
+
+        cout << " #######                 ###    ##    ## ##     ## ########     ###    " << endl;
+        cout << "##     ##               ## ##    ##  ##  ##     ## ##     ##   ## ##   " << endl;
+        cout << "       ##              ##   ##    ####   ##     ## ##     ##  ##   ##  " << endl;
+        cout << " #######      ####### ##     ##    ##    ##     ## ##     ## ##     ## " << endl;
+        cout << "##                    #########    ##    ##     ## ##     ## ######### " << endl;
+        cout << "##        ###         ##     ##    ##    ##     ## ##     ## ##     ## " << endl;
+        cout << "######### ###         ##     ##    ##     #######  ########  ##     ## " << endl<<endl<<endl<<endl;
+
+        cout << " #######            ###### ########  ###### #######  ### ######  #####   ##### " << endl;
+        cout << "       #           #     # #     ##  #      #     ## #     #    #     # #      " << endl;
+        cout << "       #           #       #     ##  #      #     ## #     #    #     # #      " << endl;
+        cout << " #######    ####   #       #######   ###    #     ## #     #    #     #  ##### " << endl;
+        cout << "       #           #       #   ##    #      #     ## #     #    #     #       #" << endl;
+        cout << "       # ###       #     # #    ##   #      #     ## #     #    #     #       #" << endl;
+        cout << " ####### ###        ###### ##     ## ###### #######  ###   #     #####   ##### " << endl<<endl<<endl<<endl;
+
         cout << "-----------" << endl << endl;
-        cout << "\t1 .- Jugar" << endl;
-        cout << "\t2 .- Ayuda" << endl;
-        cout << "\t3 .- Creditos" << endl << endl;
-        cout << "Elije una opcion: ";
 
         cin >> tecla;
 
@@ -33,25 +148,25 @@ void menu(){
 			case '2':
 				system("cls");
 				cout<<"X= Jugador\n";
-				cout<<"><^v= shooter\n";
-				cout<<"M= mov. horizontal\n";
-				cout<<"N= mov. Vertical\n";
-				cout<<"#= pared\n";
-				cout<<"k= llave\n";
-				cout<<"s= poder\n";
-				cout<<"f=???\n";
-				cout<<"O= Stalker\n";
+				cout<<"><^v= Torreta\n";
+				cout<<"MN= Slimes\n";
+				cout<<"#= Pared\n";
+				cout<<"Y,L,I= Llaves\n";
+				cout<<"S= Poder\n";
+				cout<<"O= Boo\n";
+				cout<<"F=???\n";
+				cout<<"Torreta>Boo\n";
                 pausa();
 				menu();
 
 
 			case '3':
 				system("cls");
-				cout << "Hecho por:\n";
-				cout<<"Jesus\n";
-				cout<<"Elim\n";
-				cout<<"Gil\n";
-				cout<<"Maestro: Victor\n";
+				cout << "Desarrolladores:\n\n";
+				cout<<"Jesus Gerardo Aleman Aguilar\n\n";
+				cout<<"Armando Elim Martinez Armendariz\n\n";
+				cout<<"Gilberto Turrubiartes\n\n";
+				cout<<"Maestro: Victor Yoguel \n\n";
                 pausa();
                 menu();
 

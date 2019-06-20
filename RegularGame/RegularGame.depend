@@ -11,29 +11,31 @@
 
 1560204048 D
 
-1560386618 source:d:\e\programacion\atto coders\regulargame\regulargame\mapas.cpp
+1560985868 source:d:\e\programacion\atto coders\regulargame\regulargame\mapas.cpp
 	<iostream>
 	<windows.h>
 	"Jugador.h"
 	"main.h"
 	"Mapas.h"
 
-1560386393 source:d:\e\programacion\atto coders\regulargame\regulargame\jugador.cpp
+1560985868 source:d:\e\programacion\atto coders\regulargame\regulargame\jugador.cpp
 	<iostream>
 	<windows.h>
 	"Mapas.h"
 	"main.h"
 
-1560386330 d:\e\programacion\atto coders\regulargame\regulargame\mapas.h
+1560985868 d:\e\programacion\atto coders\regulargame\regulargame\mapas.h
 
-1560386393 source:d:\e\programacion\atto coders\regulargame\regulargame\main.cpp
+1561058082 source:d:\e\programacion\atto coders\regulargame\regulargame\main.cpp
 	<iostream>
 	<windows.h>
+	<cstdlib>
 	"Jugador.h"
 	"Mapas.h"
 	"main.h"
+	"m.h"
 
-1560372298 d:\e\programacion\atto coders\regulargame\regulargame\jugador.h
+1560985868 d:\e\programacion\atto coders\regulargame\regulargame\jugador.h
 
 1560207816 source:c:\users\admin\documents\github\regulargame\regulargame\ejemplo.cpp
 	<iostream>
@@ -156,4 +158,22 @@
 	"m.h"
 
 1560992090 c:\users\admin\documents\github\regulargame\regulargame\m.h
+
+1560985868 source:d:\e\programacion\atto coders\regulargame\regulargame\fake.cpp
+	<iostream>
+	<windows.h>
+	"Mapas.h"
+
+1560985868 d:\e\programacion\atto coders\regulargame\regulargame\main.h
+
+1561057756 source:d:\e\programacion\atto coders\regulargame\regulargame\m.cpp
+	<iostream>
+	<windows.h>
+	<cstdlib>
+	"Jugador.h"
+	"Mapas.h"
+	"main.h"
+	"m.h"
+
+1561056317 d:\e\programacion\atto coders\regulargame\regulargame\m.h
 

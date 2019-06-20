@@ -16,6 +16,12 @@ int muerte();
 int isOnS();
 
 void checarPos();
+
+int enemigo();
+
+void turno();
+
+void cambiarMundo();
 //funciones
 
 #endif // EJEM_E

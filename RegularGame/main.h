@@ -3,6 +3,6 @@
 
 int gameOver();
 using namespace std;
-
+void jugar();
 #endif // EJEM_A
 

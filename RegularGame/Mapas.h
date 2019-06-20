@@ -16,8 +16,6 @@ int muerte();
 int isOnS();
 
 void checarPos();
-
-void turno();
 //funciones
 
 #endif // EJEM_E

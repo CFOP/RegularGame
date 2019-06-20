@@ -11,7 +11,7 @@
 
 1560204048 D
 
-1560541209 source:d:\e\programacion\atto coders\regulargame\regulargame\mapas.cpp
+1560386618 source:d:\e\programacion\atto coders\regulargame\regulargame\mapas.cpp
 	<iostream>
 	<windows.h>
 	"Jugador.h"
@@ -24,9 +24,9 @@
 	"Mapas.h"
 	"main.h"
 
-1560538463 d:\e\programacion\atto coders\regulargame\regulargame\mapas.h
+1560386330 d:\e\programacion\atto coders\regulargame\regulargame\mapas.h
 
-1560538415 source:d:\e\programacion\atto coders\regulargame\regulargame\main.cpp
+1560386393 source:d:\e\programacion\atto coders\regulargame\regulargame\main.cpp
 	<iostream>
 	<windows.h>
 	"Jugador.h"

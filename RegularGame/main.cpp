@@ -24,7 +24,18 @@ int gameOver(){
     cout << "##    ##  ##     ## ##     ## ##        ##     ##   ## ##   ##       ##    ##  " << endl;
     cout << " ######   ##     ## ##     ## ########   #######     ###    ######## ##     ## " << endl<< endl<< endl<< endl;
 
+    system("pause");
+    system("cls");
+    cout<<"\n\n\n\n\n\n\n\n\n\n";
+    cout << " ######      ###    ##     ## ########   #######  ##     ## ######## ########  " << endl;
+    cout << "##    ##    ## ##   ###   ### ##        ##     ## ##     ## ##       ##     ## " << endl;
+    cout << "##         ##   ##  #### #### ##        ##     ## ##     ## ##       ##     ## " << endl;
+    cout << "##   #### ##     ## ## ### ## ######    ##     ## ##     ## ######   ########  " << endl;
+    cout << "##    ##  ######### ##     ## ##        ##     ##  ##   ##  ##       ##   ##   " << endl;
+    cout << "##    ##  ##     ## ##     ## ##        ##     ##   ## ##   ##       ##    ##  " << endl;
+    cout << " ######   ##     ## ##     ## ########   #######     ###    ######## ##     ## " << endl<< endl<< endl<< endl;
 
+    cout<<"\n";
     cout<<"                              ";
     cout<<"1 .- Intentar Otra Vez"<<"\n\n";
     cout<<"                              ";
@@ -49,14 +60,15 @@ int gameOver(){
         default:
             system("cls");
             cout << "Opcion no valida.\a\n";
-            pausa();
+            system("pause");
             menu();
 		}
 
 }
-void jugar(){
+void jugar()
+{
 
-checarPos();
+    checarPos();
     showMap();
     while(true)
     {
@@ -67,7 +79,7 @@ checarPos();
 int main()
 {
     intro();
-    system("pause");
+    cin.get();
     menu();
 }
 

@@ -11,7 +11,7 @@
 
 1560204048 D
 
-1560985868 source:d:\e\programacion\atto coders\regulargame\regulargame\mapas.cpp
+1561677364 source:d:\e\programacion\atto coders\regulargame\regulargame\mapas.cpp
 	<iostream>
 	<windows.h>
 	"Jugador.h"
@@ -24,9 +24,9 @@
 	"Mapas.h"
 	"main.h"
 
-1560985868 d:\e\programacion\atto coders\regulargame\regulargame\mapas.h
+1561677413 d:\e\programacion\atto coders\regulargame\regulargame\mapas.h
 
-1561058082 source:d:\e\programacion\atto coders\regulargame\regulargame\main.cpp
+1561672266 source:d:\e\programacion\atto coders\regulargame\regulargame\main.cpp
 	<iostream>
 	<windows.h>
 	<cstdlib>
@@ -49,15 +49,15 @@
 
 1560209396 cd07819ce3816fcf365f6344645feafd5a805
 
-1560992090 source:c:\users\admin\documents\github\regulargame\regulargame\jugador.cpp
+1561679526 source:c:\users\admin\documents\github\regulargame\regulargame\jugador.cpp
 	<iostream>
 	<windows.h>
 	"Mapas.h"
 	"main.h"
 
-1560992090 c:\users\admin\documents\github\regulargame\regulargame\mapas.h
+1561679526 c:\users\admin\documents\github\regulargame\regulargame\mapas.h
 
-1560992090 source:c:\users\admin\documents\github\regulargame\regulargame\main.cpp
+1561679526 source:c:\users\admin\documents\github\regulargame\regulargame\main.cpp
 	<iostream>
 	<windows.h>
 	<cstdlib>
@@ -66,9 +66,9 @@
 	"main.h"
 	"m.h"
 
-1560992090 c:\users\admin\documents\github\regulargame\regulargame\jugador.h
+1561679526 c:\users\admin\documents\github\regulargame\regulargame\jugador.h
 
-1560992090 source:c:\users\admin\documents\github\regulargame\regulargame\mapas.cpp
+1561681971 source:c:\users\admin\documents\github\regulargame\regulargame\mapas.cpp
 	<iostream>
 	<windows.h>
 	"Jugador.h"
@@ -86,7 +86,7 @@
 
 1560304875 c:\users\admin\documents\github\regulargame\regulargame\puertas.h
 
-1560992090 c:\users\admin\documents\github\regulargame\regulargame\main.h
+1561679526 c:\users\admin\documents\github\regulargame\regulargame\main.h
 
 1560990861 source:c:\users\admin\desktop\regulargame\regulargame\jugador.cpp
 	<iostream>
@@ -116,7 +116,7 @@
 
 1560990861 c:\users\admin\desktop\regulargame\regulargame\main.h
 
-1560992090 source:c:\users\admin\documents\github\regulargame\regulargame\fake.cpp
+1561679526 source:c:\users\admin\documents\github\regulargame\regulargame\fake.cpp
 	<iostream>
 	<windows.h>
 	"Mapas.h"
@@ -148,7 +148,7 @@
 
 1560988997 source:c:\users\admin\desktop\regulargame\regulargame\sa.c
 
-1560992090 source:c:\users\admin\documents\github\regulargame\regulargame\m.cpp
+1561679526 source:c:\users\admin\documents\github\regulargame\regulargame\m.cpp
 	<iostream>
 	<windows.h>
 	<cstdlib>
@@ -157,7 +157,7 @@
 	"main.h"
 	"m.h"
 
-1560992090 c:\users\admin\documents\github\regulargame\regulargame\m.h
+1561679526 c:\users\admin\documents\github\regulargame\regulargame\m.h
 
 1560985868 source:d:\e\programacion\atto coders\regulargame\regulargame\fake.cpp
 	<iostream>
@@ -166,7 +166,7 @@
 
 1560985868 d:\e\programacion\atto coders\regulargame\regulargame\main.h
 
-1561057756 source:d:\e\programacion\atto coders\regulargame\regulargame\m.cpp
+1561673507 source:d:\e\programacion\atto coders\regulargame\regulargame\m.cpp
 	<iostream>
 	<windows.h>
 	<cstdlib>
@@ -176,4 +176,41 @@
 	"m.h"
 
 1561056317 d:\e\programacion\atto coders\regulargame\regulargame\m.h
+
+1561679526 source:c:\users\admin\downloads\regulargame\fake.cpp
+	<iostream>
+	<windows.h>
+	"Mapas.h"
+
+1561679526 c:\users\admin\downloads\regulargame\mapas.h
+
+1561679526 source:c:\users\admin\downloads\regulargame\jugador.cpp
+	<iostream>
+	<windows.h>
+	"Mapas.h"
+	"main.h"
+
+1561679526 c:\users\admin\downloads\regulargame\main.h
+
+1561679526 source:c:\users\admin\downloads\regulargame\m.cpp
+	<iostream>
+	<windows.h>
+	<cstdlib>
+	"Jugador.h"
+	"Mapas.h"
+	"main.h"
+	"m.h"
+
+1561679526 c:\users\admin\downloads\regulargame\jugador.h
+
+1561679526 c:\users\admin\downloads\regulargame\m.h
+
+1561679526 source:c:\users\admin\downloads\regulargame\main.cpp
+	<iostream>
+	<windows.h>
+	<cstdlib>
+	"Jugador.h"
+	"Mapas.h"
+	"main.h"
+	"m.h"
 

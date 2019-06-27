@@ -8,87 +8,63 @@
 
 void intro()
 {
-    system("cls");
-        cin.clear();
+        system("cls");
 
-
-
-
-
-        cout << "#####  #### #####   #   # #        #    #####     #####      #    #     # #####" << endl;
-        cout << "#    # #    #    #  #   # #       # #   #    #   #    #     # #   ##   ## #    " << endl;
-        cout << "#    # #    #       #   # #      #   #  #    #   #         #   #  ### ### #    " << endl;
-        cout << "###### ##   #   ##  #   # #     #     # ######   #   ##   #     # # ### # ###  " << endl;
-        cout << "# #    #    #    #  #   # #     ####### #   #    #    #   ####### #     # #    " << endl;
-        cout << "#   #  #    #    #  #   # #     #     # #    #   #    #   #     # #     # #    " << endl;
-        cout << "#    # ####  ####   #####  #### #     # #     #   #####   #     # #     # #####" << endl<<endl<<endl<<endl;
-
-
-        cout << "                       ";
+        cout << "                ";
         cout << "              _              " << endl;
-        cout << "                       ";
+        cout << "                ";
         cout << "             /_              " << endl;
-        cout << "                       ";
+        cout << "                ";
         cout << "_            )_(            _" << endl;
-        cout << "                       ";
+        cout << "                ";
         cout << "|`-.___,.-~'`|=|`'~-.,___,-'|" << endl;
-        cout << "                       ";
+        cout << "                ";
         cout << "|  __________|=|__________  |" << endl;
-        cout << "                       ";
+        cout << "                ";
         cout << "| |          |=|          | |" << endl;
-        cout << "                       ";
+        cout << "                ";
         cout << "| |          |=|          | |" << endl;
-        cout << "                       ";
+        cout << "                ";
         cout << "| |          |=|          | |" << endl;
-        cout << "                       ";
+        cout << "                ";
         cout << "| |         _|_|_         | |" << endl;
-        cout << "                       ";
+        cout << "                ";
         cout << "| |        |_____|        | |" << endl;
-        cout << "                       ";
+        cout << "                ";
         cout << "| |         | | |         | |" << endl;
-        cout << "                       ";
-        cout << "| |         | | |         | |" << endl;
-        cout << "                       ";
-        cout << "| |         | | |         | |" << endl;
-        cout << "                       ";
-        cout << "| |         | | |         | |" << endl;
-        cout << "                       ";
-        cout << "| |         | | |         | |" << endl;
-        cout << "                       ";
-        cout << "| |         | | |         | |" << endl;
-        cout << "                       ";
-        cout << "| |         | | |         | |" << endl;
-        cout << "                       ";
-        cout << "| |         | | |         | |" << endl;
-        cout << "                       ";
-        cout << "| |         | | |         | |" << endl;
-        cout << "                       ";
+        cout << "                ";
         cout << "| |         | | |         / /" << endl;
-        cout << "                       ";
+        cout << "                ";
         cout << " | |        | | |        / / " << endl;
-        cout << "                       ";
+        cout << "                ";
         cout << "  | |       | | |       / /  " << endl;
-        cout << "                       ";
+        cout << "                ";
         cout << "   `.`.     | | |     ,','   " << endl;
-        cout << "                       ";
+        cout << "                ";
         cout << "     `.`.   | | |   ,','     " << endl;
-        cout << "                       ";
-        cout << "       `.`-.| | |,-','       " << endl;
-        cout << "                       ";
-        cout << "         `-.| | |,-'         " << endl;
-        cout << "                       ";
-        cout << "            | | |            " << endl;
-        cout << "                       ";
-        cout << "            | | |            " << endl;
-        cout << "                       ";
-        cout << "            | | |            " << endl;
-        cout << "                       ";
-        cout << "            | | |            " << endl;
-        cout << "                       ";
-        cout << "              | /            " << endl;
-        cout << "                       ";
-        cout << "              V              " << endl;
+        cout << "                ";
+        cout << "       `.`-.  | /,-','       " << endl;
+        cout << "                ";
+        cout << "         `-.  V  ,-'         " << endl;
 
+        cin.get();
+        system("cls");
+        cout << endl;
+        cout << " #######  #######  #####   #     # #          ###    #######  " << endl;
+        cout << " #     ## #       #    ##  #     # #         ## ##   #     ## " << endl;
+        cout << " #     ## #       #        #     # #        ##   ##  #     ## " << endl;
+        cout << " #######  #####   #   #### #     # #       ##     ## #######  " << endl;
+        cout << " #   ##   #       #    ##  #     # #       ######### #   ##   " << endl;
+        cout << " #    ##  #       #    ##  #     # #       ##     ## #    ##  " << endl;
+        cout << " #     ## #######  #####    #####  ####### ##     ## #     ## " << endl<<endl<<endl<<endl;
+
+        cout << "             ######      ###    ##     ## ########" << endl;
+        cout << "            ##    ##    ## ##   ###   ### ##      " << endl;
+        cout << "            ##         ##   ##  #### #### ##      " << endl;
+        cout << "            ##   #### ##     ## ## ### ## ######  " << endl;
+        cout << "            ##    ##  ######### ##     ## ##      " << endl;
+        cout << "            ##    ##  ##     ## ##     ## ##      " << endl;
+        cout << "             ######   ##     ## ##     ## ########" << endl;
 
 }
 
@@ -100,40 +76,22 @@ void menu(){
         cin.clear();
 
 
-        cout << "#####  #### #####   #   # #        #    #####     #####      #    #     # #####" << endl;
-        cout << "#    # #    #    #  #   # #       # #   #    #   #    #     # #   ##   ## #    " << endl;
-        cout << "#    # #    #       #   # #      #   #  #    #   #         #   #  ### ### #    " << endl;
-        cout << "###### ##   #   ##  #   # #     #     # ######   #   ##   #     # # ### # ###  " << endl;
-        cout << "# #    #    #    #  #   # #     ####### #   #    #    #   ####### #     # #    " << endl;
-        cout << "#   #  #    #    #  #   # #     #     # #    #   #    #   #     # #     # #    " << endl;
-        cout << "#    # ####  ####   #####  #### #     # #     #   #####   #     # #     # #####" << endl<<endl<<endl<<endl;
+        cout << "  db   d888888b  .d88b.    d8888b. db       .d8b.  db    db " << endl;
+        cout << " o88   `~~88~~' .8P  Y8.   88  `8D 88      d8' `8b `8b  d8' " << endl;
+        cout << "  88      88    88    88   88oodD' 88      88ooo88  `8bd8'  " << endl;
+        cout << "  88      88    88    88   88~~~   88      88~~~88    88    " << endl;
+        cout << "  88      88    `8b  d8'   88      88booo. 88   88    88    " << endl;
+        cout << "  VP      YP     `Y88P'    88      Y88888P YP   YP    YP    " << endl<<endl<<endl<<endl;
+
+        cout << ".d888b.   db   db d88888b db      d8888b. " << endl;
+        cout << "VP  `8D   88   88 88'     88      88  `8D " << endl;
+        cout << "   odD'   88ooo88 88ooooo 88      88oodD' " << endl;
+        cout << " .88'     88~~~88 88~~~~~ 88      88~~~   " << endl;
+        cout << "j88.      88   88 88.     88booo. 88      " << endl;
+        cout << "888888D   YP   YP Y88888P Y88888P 88      " << endl<<endl;
 
 
-        cout << "   ##                     ## ##     ##  ######      ###    ########  " << endl;
-        cout << " ####                     ## ##     ## ##    ##    ## ##   ##     ## " << endl;
-        cout << "   ##                     ## ##     ## ##         ##   ##  ##     ## " << endl;
-        cout << "   ##       #######       ## ##     ## ##   #### ##     ## ######## " << endl;
-        cout << "   ##               ##    ## ##     ## ##    ##  ######### ##   ##  " << endl;
-        cout << "   ##   ###         ##    ## ##     ## ##    ##  ##     ## ##    ## " << endl;
-        cout << " ###### ###          ######   #######   ######   ##     ## ##     ##" << endl<<endl<<endl<<endl;
-
-        cout << " #######                 ###    ##    ## ##     ## ########     ###    " << endl;
-        cout << "##     ##               ## ##    ##  ##  ##     ## ##     ##   ## ##   " << endl;
-        cout << "       ##              ##   ##    ####   ##     ## ##     ##  ##   ##  " << endl;
-        cout << " #######      ####### ##     ##    ##    ##     ## ##     ## ##     ## " << endl;
-        cout << "##                    #########    ##    ##     ## ##     ## ######### " << endl;
-        cout << "##        ###         ##     ##    ##    ##     ## ##     ## ##     ## " << endl;
-        cout << "######### ###         ##     ##    ##     #######  ########  ##     ## " << endl<<endl<<endl<<endl;
-
-        cout << " #######            ###### ########  ###### #######  ### ######  #####   ##### " << endl;
-        cout << "       #           #     # #     ##  #      #     ## #     #    #     # #      " << endl;
-        cout << "       #           #       #     ##  #      #     ## #     #    #     # #      " << endl;
-        cout << " #######    ####   #       #######   ###    #     ## #     #    #     #  ##### " << endl;
-        cout << "       #           #       #   ##    #      #     ## #     #    #     #       #" << endl;
-        cout << "       # ###       #     # #    ##   #      #     ## #     #    #     #       #" << endl;
-        cout << " ####### ###        ###### ##     ## ###### #######  ###   #     #####   ##### " << endl<<endl<<endl<<endl;
-
-        cout << "-----------" << endl << endl;
+        cout << "-----------"  << endl;
 
         cin >> tecla;
 
@@ -147,16 +105,20 @@ void menu(){
 
 			case '2':
 				system("cls");
-				cout<<"X= Jugador\n";
-				cout<<"><^v= Torreta\n";
-				cout<<"MN= Slimes\n";
-				cout<<"#= Pared\n";
-				cout<<"Y,L,I= Llaves\n";
-				cout<<"S= Poder\n";
-				cout<<"O= Boo\n";
-				cout<<"F=???\n";
-				cout<<"Torreta>Boo\n";
-                pausa();
+				cout<<"TE MUEVES CON ASDW\n";
+				cout<<"X= JUGADOR\n";
+				cout<<"><^v= LANZADORES\n";
+				cout<<"li*o=PROYECTILES\n";
+				cout<<"MN= CABALLEROS\n";
+				cout<<"#= PAREDES\n";
+				cout<<"Y,L,I= LLAVES\n";
+				cout<<"%=PUERTAS BLOQUEADAS\n";
+				cout<<"1,2,3,4,5,6,7,8,9=PUERTAS DESBLOQUEADAS\n";
+				cout<<"S= ARMA\n";
+				cout<<"O= FANTASMA\n";
+				cout<<"F= ???\n\n\n";
+				cout<<"-----------\n";
+                system("pause");
 				menu();
 
 
@@ -167,20 +129,15 @@ void menu(){
 				cout<<"Armando Elim Martinez Armendariz\n\n";
 				cout<<"Gilberto Turrubiartes\n\n";
 				cout<<"Maestro: Victor Yoguel \n\n";
-                pausa();
+                system("pause");
                 menu();
 
 			default:
 				system("cls");
 				cout << "Opcion no valida.\a\n";
-				pausa();
+				system("pause");
 				menu();
 
 		}
 }
-void pausa()
-{
-    cout << "Pulsa una tecla para regresar...";
-    getwchar();
-    getwchar();
-}
+

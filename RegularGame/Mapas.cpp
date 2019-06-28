@@ -3,6 +3,7 @@
 #include "Jugador.h"
 #include "main.h"
 #include "Mapas.h"
+#include "m.h"
 
 bool dead=0, smn = 0;
 int t = 5, ira = t+2,d;
@@ -505,6 +506,13 @@ void ya_vez()
     }
 }
 
+void win()
+{
+    if(m[mundoActual][JugY][JugX]=='T')
+    {
+        ganaste();
+    }
+}
 
 int enemigo(){
     if(m[mundoActual][JugY][JugX]!='.'||m[mundoActual][JugY][JugX]!='S'||m[mundoActual][JugY][JugX]!='X'||m[mundoActual][JugY][JugX]!='I'||m[mundoActual][JugY][JugX]!='Y'||m[mundoActual][JugY][JugX]!='L'||m[mundoActual][JugY][JugX]=='T'||m[mundoActual][JugY][JugX]=='B'){
@@ -667,10 +675,12 @@ void jugD()
 {
     if(m[mundoActual][JugY+1][JugX]!='#'&& m[mundoActual][JugY+1][JugX]!='%')
     {
+
         ira--;
         m[mundoActual][JugY][JugX] = '.';
         JugY++;
         isOnS();
+        win();
         ya_vez();
         turno();
         cambiarMundo();
@@ -686,10 +696,12 @@ void jugU()
 {
     if(m[mundoActual][JugY-1][JugX]!='#'&& m[mundoActual][JugY-1][JugX]!='%')
     {
+
         ira--;
         m[mundoActual][JugY][JugX] = '.';
         JugY--;
         isOnS();
+        win();
         ya_vez();
         turno();
         cambiarMundo();
@@ -715,6 +727,7 @@ void jugR()
         m[mundoActual][JugY][JugX] = '.';
         JugX++;
         isOnS();
+        win();
         ya_vez();
         turno();
         cambiarMundo();
@@ -740,6 +753,7 @@ void jugL()
         m[mundoActual][JugY][JugX] = '.';
         JugX--;
         isOnS();
+        win();
         ya_vez();
         turno();
         cambiarMundo();

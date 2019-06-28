@@ -4,4 +4,5 @@
 void menu();
 void pausa();
 void intro();
+void ganaste();
  #endif

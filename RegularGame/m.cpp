@@ -6,8 +6,106 @@
 #include "main.h"
 #include "m.h"
 
+void ganaste()
+{
+    system("cls");
+    cout<<"               ";
+    system("pause");
+    system("cls");
+        cout << "           ";
+        cout << "            _________________            " << endl;
+        cout << "           ";
+        cout << "           /		        l           " << endl;
+        cout << "           ";
+        cout << "          /      (     )      l          " << endl;
+        cout << "           ";
+        cout << "         /    ____|___|____    l         " << endl;
+        cout << "           ";
+        cout << "        /    /             l    l        " << endl;
+        cout << "           ";
+        cout << "       /    /	       l    l       " << endl;
+        cout << "           ";
+        cout << "      /    /   ( )     ( )   l    l      " << endl;
+        cout << "           ";
+        cout << "     l     l    	       /    /       " << endl;
+        cout << "          ";
+        cout << "       l     l              /    /        " << endl;
+        cout << "           ";
+        cout << "       l     l            /    /         " << endl;
+        cout << "           ";
+        cout << "        l   /      	     l   /         " << endl;
+        cout << "           ";
+        cout << "         l /               l /           " << endl<<endl<<endl;
+        cout << "           ";
+        cout << "             #HAGAMOS_ROBOTS            " << endl<<endl;
+        cout << "           ";
+        cout << "              ROBOTISTASMX"<<endl<<endl;
+
+        system("pause");
+        system("cls");
+
+        cout << "                                          ______" << endl;
+        cout << "   ____________________-------------------      `\"" << endl;
+        cout << " /:--__                                          |"<< endl;
+        cout << "||< > |                                __________/"<< endl;
+        cout << "| \__/______________-------------------         |" << endl;
+        cout << "|                                               |" << endl;
+        cout << " |        #HAGAMOS_ROBOTS                       |" << endl;
+        cout << " |                                               |"<< endl;
+        cout << "  |      No se puede diferenciar                 |" << endl;
+        cout << "  |         entre un robot 	                   |" << endl;
+        cout << "   |       	y lo mejor de                      |" << endl;
+        cout << "   |         	    los seres humanos.            |" << endl;
+        cout << "   |                                             |" << endl;
+        cout << "  |	Isaac Asimov-Padre de la Robotica         |" << endl;
+        cout << "  |                                           ___|" << endl;
+        cout << "  |  ________________-------------------------    `\""<<endl;
+        cout << "  |/`--_                                            |"<<endl;
+        cout << "  ||[ ]||                                           /"<<endl;
+        cout << "    \===/________________--------------------------";
+
+        cin.get();
+        exit(-1);
+
+}
+
+
 void intro()
 {
+
+            system("cls");
+
+        cout << "           ";
+        cout << "            _________________            " << endl;
+        cout << "           ";
+        cout << "           /		        l           " << endl;
+        cout << "           ";
+        cout << "          /      (     )      l          " << endl;
+        cout << "           ";
+        cout << "         /    ____|___|____    l         " << endl;
+        cout << "           ";
+        cout << "        /    /             l    l        " << endl;
+        cout << "           ";
+        cout << "       /    /	       l    l       " << endl;
+        cout << "           ";
+        cout << "      /    /   ( )     ( )   l    l      " << endl;
+        cout << "           ";
+        cout << "     l     l    	       /    /       " << endl;
+        cout << "          ";
+        cout << "       l     l              /    /        " << endl;
+        cout << "           ";
+        cout << "       l     l            /    /         " << endl;
+        cout << "           ";
+        cout << "        l   /      	     l   /         " << endl;
+        cout << "           ";
+        cout << "         l /               l /           " << endl<<endl<<endl;
+        cout << "           ";
+        cout << "             #HAGAMOS_ROBOTS            " << endl<<endl;
+        cout << "           ";
+        cout << "              ROBOTISTASMX              ";
+
+
+        cin.get();
         system("cls");
 
         cout << "                ";
